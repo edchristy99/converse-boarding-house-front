@@ -4,12 +4,10 @@
 
 <script>
 export default {
-  name: "a_cospend",
-  components: {},
+  name: "add_Cospend",
   setup() {
-    //Get Cospend
+    // Create data
 
-    //Update Cospend Approval
 
     return {};
   },

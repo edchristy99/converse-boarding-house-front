@@ -1,14 +1,21 @@
 import { createRouter, createWebHistory } from "vue-router";
-import Home from "../views/Home.vue";
+import ACospend from "../views/a_cospend_list.vue";
 import Login from "../views/Login.vue";
-import Register from "../views/Register.vue";
+import GCospend from "../views/g_cospend_list.vue";
+import addCospend from "../views/add_cospend.vue";
 
 
 const routes = [
   {
     path: "/",
-    name: "Home",
-    component: Home,
+    name: "a_cospend",
+    component: ACospend,
+  },  
+  
+  {
+    path: "/",
+    name: "g_cospend",
+    component: GCospend,
   },
 
   {
@@ -17,9 +24,9 @@ const routes = [
     component: Login,
   },
   {
-    path: "/register",
-    name: "Register",
-    component: Register,
+    path: "/addcospend",
+    name: "add_cospend",
+    component: addCospend,
   },
 ];
 

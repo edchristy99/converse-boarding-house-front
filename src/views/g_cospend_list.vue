@@ -4,23 +4,9 @@
 
 <script>
 export default {
-  name: "view-workout",
+  name: "g_cospend",
   setup() {
-    // Create data / vars
-
-    // Get current Id of route
-
-    // Get workout data
-
-    // Delete workout
-
-    // Edit mode
-
-    // Add exercise
-
-    // Delete exercise
-
-    // Update Workout
+    //Get List of Cospend based on User
 
     return {};
   },
