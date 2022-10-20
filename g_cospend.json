@@ -1,0 +1,92 @@
+// postt receipt---------------------------------
+
+//Header
+
+//Body
+{
+    "notes":"",
+    "id_sender":"",
+    "id_receiver":"",
+    "receipt_link":"",
+    "nominal":"",
+    "approval":"waiting",
+    "date":""
+}
+
+//response
+{
+    "status": "SUCCESS",
+    "entity": "addCospend",
+    "state": "addCospendSuccess",
+    "message": "add Cospend Success", 
+    "data":
+    [{
+        "cospend_id":1,
+        "date":"2022-10-02T15:01:00",
+        "id_sender": 4,
+        "id_receiver": 7,
+        "nominal": 9000000,
+        "approval": "waiting",
+        "receipt_link": "https://www.drive.com/p/CjiaZA3B9iu/",
+        "created_at":"2022-10-02T15:01:00",
+        "updated_at":"2022-10-02T15:01:00",
+ 
+    }
+
+]
+
+}
+
+{}
+
+
+
+
+{
+    "guest_id":""
+}
+
+// ge
+
+
+// GET ALL USER
+
+
+{
+    "status": "SUCCESS",
+    "entity": "getUsers",
+    "state": "getUserSuccess",
+    "message": "get all users success", 
+    "data":
+    [{
+        "id":1,
+        "fullname":"Arawinda Kasia",
+        "contact":"083286831",
+        "email":"hasvK@gmail.com"
+    },
+    {
+        "id":2,
+        "fullname":"Edwina Ayu",
+        "contact":"083286831",
+        "email":"hasvK@gmail.com"
+    },
+    {
+        "id":3,
+        "fullname":"Ayu Christy",
+        "contact":"083286831",
+        "email":"hasvK@gmail.com"
+    },
+    {
+        "id":5,
+        "fullname":"Christy Ed",
+        "contact":"083286831",
+        "email":"hasvK@gmail.com"
+    },
+    {
+        "id":6,
+        "fullname":"Owner Name",
+        "contact":"083286831",
+        "email":"hasvK@gmail.com"
+    },
+    ]
+}
